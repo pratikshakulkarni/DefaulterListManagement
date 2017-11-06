@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HeadBack"
+    tools:context="psk.com.recyclerview.UserSignup">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#fff9f8"
+        android:layout_marginTop="130dp"
+        android:hint="  NAME"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="45dp"
+        android:background="#fff9f8"
+        android:ems="10"
+        android:hint="  EMAIL-ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_gravity="center"
+        android:hint="  PASSWORD"
+        android:background="#fff9f8"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#dfd70d62"
+        android:textColor="#fff9f8"
+        android:layout_marginBottom="30dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIGN UP"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff9f8"
+        android:textStyle="bold"
+        android:textSize="45sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="140dp"
+        android:background="#fff9f8"
+        android:ems="10"
+        android:hint="  CONFIRM PASSWORD"
+        android:inputType="textPassword" />
+
+
+</FrameLayout>

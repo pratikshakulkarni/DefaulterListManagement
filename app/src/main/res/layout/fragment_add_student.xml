@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="psk.com.recyclerview.AddStudent"
+    android:background="#fff">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="ADD STUDENT"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:background="#ff1606"
+        android:textColor="#fff7f9"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/id_roll"
+        android:layout_marginTop="38dp"
+        android:hint="Enter Roll-No"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/id_name"
+        android:hint="Enter Name"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/id_roll"
+        android:layout_alignLeft="@+id/id_class"
+        android:layout_alignStart="@+id/id_class" />
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_class"
+        android:hint="Enter Class"
+        android:layout_below="@+id/id_name"
+        android:layout_alignRight="@+id/id_roll"
+        android:layout_alignEnd="@+id/id_roll"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="ADD"
+        android:id="@+id/addstu"
+        android:background="#dfd70d62"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#f1eedc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
+
+
+</RelativeLayout>

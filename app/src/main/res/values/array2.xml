@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Subject">
+        <item>DBMS</item>
+        <item>SEPM</item>
+        <item>ISEE</item>
+        <item>CN</item>
+        <item>TOC</item>
+    </string-array>
+</resources>
